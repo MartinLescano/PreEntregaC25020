@@ -298,6 +298,8 @@ a{
 .item-boton:hover{
     background-color: rgb(182, 0, 17);
     transition: all .3s ease 0s;
+    transform: scale(1.01);
+    transition: transform 0.1s;
 }
 .banner{
     height: 40vh;
@@ -343,4 +345,64 @@ a{
     text-align: center;
     margin-top: 40px;
 }
-
+@media only screen and (max-width: 768px) {
+    .main-content{
+        margin: 10px 5%;
+    }
+    .nav-container{
+        flex-direction: row;
+        align-items: center;
+        margin: 0px 0px;
+        padding: 0px;
+    }
+    .nav-item{
+        margin: 0px 0px;
+        padding: 0px;
+    }
+    .logo{
+        flex: 1 1 100%;
+        text-align: center;
+    }
+    .carrito{
+        width: 28px;
+        height: 28px;
+    }
+    .buscar{
+        margin-top: 5px;
+    }
+    .boton-buscar{
+        width: 20px;
+        height: 20px;
+    }
+    .banner{
+        height: 20vh;
+        background-size: cover;
+    }
+    .banner h1{
+        font-size: 2.5em;
+        margin: 0px 5% 0px 0px;
+    }
+    .banner h2{
+        font-size: 1.2em;
+        margin: 0px 5% 0px 0px;
+    }
+    .contenedor-destacados{
+        flex-direction: column;
+        align-items: center;
+    }
+    .titulo-destacado{
+        font-size: 2.5em;
+    }
+    .video-review{
+        font-size: 2.5em;
+    }
+    .video-item{
+        width: 90vw;
+        height: 50vh;
+    }
+    .footer-container{
+        flex-direction: column;
+        align-items: center;
+    }
+    
+}

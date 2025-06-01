@@ -8,7 +8,8 @@ Agregado de productos al carrito de compras.
 Gestión del carrito de compras.
 
 # Estado del proyecto
-Actualmente, el proyecto se encuentra en fase de diseño y desarrollo inicial.
+Actualmente, el proyecto se encuentra en fase de diseño y desarrollo inicial. Página principal y página de contacto visibles (botones no operativos).
 
 # Autor
 Martin Lescano
+Comisión 25020
